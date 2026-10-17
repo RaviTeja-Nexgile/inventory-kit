@@ -1,0 +1,1 @@
+{"name":"inventory-market","owner":{"name":"QA"},"plugins":[{"name":"low-stock","source":"./plugins/low-stock"},{"name":"pinned-kit","source":{"source":"github","repo":"RaviTeja-Nexgile/inventory-kit","ref":"main","sha":"f4d1ca2df142bd22ae1183adea72ca7bc1e4edb9"}}]}
