@@ -1,10 +1,5 @@
 {
   "mcpServers": {
-    "echo": { "command": "node", "args": ["${CLAUDE_PLUGIN_ROOT}/server.js"] },
-    "api": {
-      "type": "http",
-      "url": "https://example.com/mcp",
-      "headers": { "Authorization": "Bearer ${env:STOCK_API_TOKEN}" }
-    }
+    "echo": { "command": "node", "args": ["${CLAUDE_PLUGIN_ROOT}/server.js"] }
   }
 }
