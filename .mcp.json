@@ -4,7 +4,7 @@
     "api": {
       "type": "http",
       "url": "https://example.com/mcp",
-      "headers": { "Authorization": "Bearer fake-stock-token-123" }
+      "headers": { "Authorization": "Bearer ${env:STOCK_API_TOKEN}" }
     }
   }
 }
